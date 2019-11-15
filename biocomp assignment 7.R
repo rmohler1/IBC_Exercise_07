@@ -1,9 +1,3 @@
-newhead<-function(x,y){
-  thefile<- read.csv(file = (x) , header = FALSE)
-  z=(thefile[c(1:y),])
-  return(z)    
-}
-
 #1 
 oddrows<-function(x){
   file=read.csv(file=(x), header = FALSE)
